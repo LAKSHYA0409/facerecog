@@ -1,5 +1,5 @@
-conda create -n facial python=3.10 -y
+python -m venv myenv
 
-conda activate facial
+myenv\Scripts\activate
 
-pip install ultralytics
+python project.py
